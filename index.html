@@ -1,22 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página principal</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="background-bubbles.css">
-</head>
-<body>
-    <h3>Hellow World !!</h3>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página principal</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="background-bubbles.css">
+        <link rel="import" href="src/MainMenu/mainMenu.html">
+    </head>
+    <body>
+        <div class="load-html" id="NavigationMenu" data-source="src/header.html">
 
-    <ul class="bubbles">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-</body>
+        </div>
+        <ul class="bubbles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+        <!-- JavaScript -->
+        
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="app.js" defer></script>
+        <noscript>You need to enable JavaScript to view the full site.</noscript>
+    </body>
 </html>

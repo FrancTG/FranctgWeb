@@ -2,10 +2,14 @@ body {
     margin: 0;
     padding: 0;
     background: rgb(25,69,85);
-background: linear-gradient(0deg, rgba(25,69,85,1) 0%, rgba(15,36,44,1) 100%);
+    background: linear-gradient(0deg, rgba(25,69,85,1) 0%, rgba(15,36,44,1) 100%);
     background-attachment: scroll;
     background-size: 100% 1080px;
     overflow: hidden;
     z-index: 1;
 }
 
+div{
+    width: 100px;
+    height: 100px;
+}
